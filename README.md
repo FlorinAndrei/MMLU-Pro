@@ -1,6 +1,12 @@
 This is a fork of the MMLU-Pro repo: https://github.com/TIGER-AI-Lab/MMLU-Pro
 
-I've updated requirements.txt and made an install script, so that the code works with more recent module versions.
+I've updated requirements.txt and made an install script, so that the code works with more recent module versions:
+
+- PyTorch 2.9.0
+- Transformers 4.57.3
+- vLLM 0.11.2
+
+The venv is compatible and was tested with CUDA 13.0.
 
 Run `install.sh` to create the venv and populate it with modules.
 
