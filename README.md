@@ -10,4 +10,6 @@ The venv is compatible and was tested with CUDA 13.0.
 
 Run `install.sh` to create the venv and populate it with modules.
 
+After completing the installation, you will have relatively new Python modules installed, and the code will run on new GPUs such as the Blackwell chip used by the NVIDIA DGX Spark.
+
 Use `run.sh` to run `evaluate_from_local.py` headless.
